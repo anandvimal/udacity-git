@@ -11,5 +11,20 @@ commits at this stage. we need to do it when we want to create a
 repository. as its the first step we need to do to track and commit
 versions of out data.
 
+Question:
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+Answer:
+stagging area comes in middle of both. files which are stagged are
+tracked by git but not commited(yet). when ever we commit all the
+files in stagging area are saved in that current version in that
+commit. 
+	"in my words we can say stagging area is like a office with
+	safe all important files are gathered in office and at at important
+	times or event all those files in office are copied into
+	safe. anything outside the office is not important and never saved." 
 
+
+
+devi mata sharda sard ind samhas bando pad pankaj sada karo somat prakash.
 
