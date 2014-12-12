@@ -1,0 +1,15 @@
+Lesson 2
+Reflections:
+
+Question:What happens when you initialize a repository? Why do you
+need to do it?
+Answer:
+When we initilize a repository the git gets initialized in that
+directory. And by initilizing the git it starts to track all the files
+in that directory. By initilizing git gets active but there are no
+commits at this stage. we need to do it when we want to create a
+repository. as its the first step we need to do to track and commit
+versions of out data.
+
+
+

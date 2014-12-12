@@ -1,0 +1,62 @@
+Question:
+How could having easy access to entire history of a file make you a
+more efficient programmer in the long term?
+Answer: 
+this way i can always go back and avoid fixing my bugs
+everytime i create one. 
+also i have complete control over my code so when ever i screw up i
+can go back with one click. 
+So i dont need to be afraid of testing.
+
+Question:
+What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google docs does?
+Answer:
+well autosave has one thing to offer that is save content on fixed
+time intervals. but side effect is its not of much use as we are
+talking about code not literature. On other hand manual way we have
+more control but we can forget also depends upon logic of commiter
+also how good decisions he/she makes about commiting the code. 
+(something that sounds good to one person might sound terrible to
+someone else.)
+
+Question:
+Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat
+each file separately?
+Answer:
+Again google docs does not deal with code.
+where as we do with emacs. Well on a serious note in programming there
+are such examples that we are making 1 thing but number of files are
+more than one. A calassic example of this is wesites. So to save one
+version of a single page website we will need to html css and
+javascript file of it.git allows this because git is made for
+programmers and we do need this.
+
+Question:
+How can you use the commands git log and git diff to view the history
+of files?
+Answer:
+git log: use this command in the directory where some commits are
+made. git log will show us history of each and every commit done
+there. then from thses details we can see id of all commits and pick
+the two which we want to compare. we compare commits by git diff
+command. format is:
+- git diff oldfile.ext newfile.ext
+
+Question:
+How might using version control make you more confident to make
+changes that could break something?
+Answer:
+If i am using git everytime i commit it gives me confidence that i can
+go back if i mess upto upto the last checkpoint. So i can try crazy
+things with my code and still come back incase something goes unexpected.
+
+Question:
+Now that you have your workspace set up, what do you want to try using
+Git for?
+Answer:
+Well it will be fun to test it in my next coding project in python. or
+in my C tutorials
+lets see how it turns out. now i am a creative developer.
