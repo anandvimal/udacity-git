@@ -1,0 +1,33 @@
+Chapter 3:
+
+Make an account on github.
+Use public repositories (its free)
+
+make a repository on github first (you can not clone directly it needs
+a empty repository on github first). 
+
+If you did not initiliased a respository on desktop then click to add
+a readme so it can commit right away online. 
+
+to send repository from your pc to github we need remotes.
+remotes:
+pretty much like bridges between your pc to github.
+each project (folder) needs its own remote.
+if you have just 1 remote name it origin (standard)
+- git remote (shows all remotes)
+- git remote add <name> <url>
+<name> = name of remote
+<url> of github repository which we initialized.
+
+git on terminal does asked me my username and password for github.com.
+//need a way to make it remember.
+
+git remote -v
+on doing git remote -v it shows us all remotes name and url (fetch and
+push) which means to fetch from this origin use this url and this to
+push use this.
+
+also if the github repository is updated then need to 
+git pull <remote> <branch>
+remote = remote name (origin in this case)
+branch = master in this case.  
