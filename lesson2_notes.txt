@@ -1,0 +1,116 @@
+Lesson 2
+
+In this chapter:
+git on your own machine 
+for local projects.
+merge branch 
+
+Repositories:
+store metadata in the directory. its hidden by default starts with
+.name (.git) go in command line and do "ls -a" you can see hidden
+files. 
+
+last time when you cloned a existing repository all the metadata came
+with it. 
+
+Initilize a repository:
+- git init
+
+check for all repositories:
+- git log
+
+
+- git diff oldfile newfile
+(otherwise it gets opposite lines removed shown as + and lines added
+as -ve incase of new old (order) )
+last git commit: 3884eab839af1e82c44267484cf2945a766081f3
+
+error commit: 25ede836903881848fea811df5b687b59d962da3
+before error: df035382c41b4d0cda86a1aa30b53f15bef05b53
+
+
+also note that if I just do:
+
+- git diff
+it shows me difference between working directory and staging area.
+
+if git diff --staged 
+it shows me different between staging area and recent commit.
+
+if diff commit1 commit2
+well question says it all difference betwen commit1 and commit2.
+
+- git checkout master
+this takes us to most recent checkout. and with this we can keep
+moving forward.
+
+Branching:
+all of a sudeen new experiment with the current project?
+for example project in 2 different language.
+italian and english
+
+master branch (main branch)
+-other branches.
+
+deattached head stage: in a stage without label.
+
+merging : process of joinging two branches.
+
+
+git branch
+
+git branch name
+
+git checkout branchname
+
+diagram in emacs :)
+diagram of recent commits in asteroid repository including the easy
+mode, master and coins branches. 
+
+
+
+      	     	       		 master:
+				fix typo in space
+				    |
+				revert controls=====================coins
+				    |					|
+				    |				first pass 			
+				i cant spell screen         at adding coins
+				  apparently                  |
+					|		      create helper
+				a couple missing ends         functions
+				with ipad version	      |
+				     |	  		      make it 
+				frame interval was set wrong  possible to
+				after game was paused  	      collect coins
+				      |	       		      |
+				 now using request 	      |
+				 animation frame	      Make ships
+				     |	   		      able to
+				add color		      spawn on coins
+				    |			      
+				finally at master
+		easy mode-------fix the bug and commited
+			|	(did by me as exercise)
+		on easy mode 
+		split into 2		
+
+- git log			
+so git log shows us a log starting from current commit going up to
+parent until we reaches a commit without parent. 
+
+something like
+
+current
+|
+parent of current(b)
+|
+c = parent of (b)-----------//-(x) another branch (invisible in the log)
+|
+d = parent of c
+
+as long as there is a parent
+suppost at c there was new branch emerging called x
+in this git log of current the  print of x will not be printed as its not in the path.
+
+

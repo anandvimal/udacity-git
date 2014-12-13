@@ -1,0 +1,63 @@
+1 install git.
+
+compare files 
+(compare the code and tells what has changed between two versions of these.)
+on windows : use FC
+on mac/linux : use Diff 
+
+use of diff:
+diff -u oldfile.ext newfile.ext
+
+* the -u makes it look more organised. without -u i was unable to
+  understand at all.
+
+note down the link about reflections.
+spend some time on these reflections.
+seems like a good topic.
+
+url:
+topic site:
+https://sites.google.com/site/reflection4learning/Home
+
+20 page paper on reflections: 
+http://184.182.233.150/rid=1LW06D9V6-26428MK-1Z64/Mezirow's%20chapter,%20How%20Critical%20Refletion%20Triggers%20TL.pdf
+
+another thing i can look into is note taking that topic is covered in
+my physics class website. 
+(i will check for it today. (yes today.)
+
+also some books are mentioned in the reflections website. one day i
+will look into those also. 
+
+but first of all i will finish this course.
+
+Git: by linux torvalds.
+(CVS, SVN, mercurial, other systems like git).
+
+
+Commit : version.
+
+how to clone: 
+git clone url
+
+clone is downloading the repository to your computer.
+
+some commands of git:
+
+- git log
+- git diff
+- diff -u oldfile new file ( this one is not of git)
+- git config --global color.ui auto
+
+git number : 3884eab839af1e82c44267484cf2945a766081f3
+
+- git checkout git_id_key
+checkout : takes git directory to that commit state.
+
+we copied 3 files in our home directory which i have no clue
+about. there is a link in notes which explain actually what it does
+and how it does it. I will like to take a look at it later. for now i
+am just trying to get it in working condition.
+link:
+http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+
