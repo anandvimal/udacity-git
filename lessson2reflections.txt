@@ -24,6 +24,89 @@ commit.
 	times or event all those files in office are copied into
 	safe. anything outside the office is not important and never saved." 
 
+Question:
+How can you use the staging area to make sure you have one commit per
+logical change?
+Answer:
+By staging area we can keep adding one or more files which were
+recently modified and commit then as soon as logically we complleted
+one small milestone in our project. 
+For example i need to add a picture in my website:
+Steps involed:
+add a picture to resource directory.
+add the <src> tag in my html file
+add code in my css file to align this picture.
+so with git i will add the pic htmlfile and css file modified and and
+once all steps are done i will commit it. so i dont have to commit
+each file every time due to stagging area and i can still leave other
+files like javascript if i am making something there which is not
+complete. :)
+
+Question:
+What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+Answer:
+Mainly during the time when at a certain point in a program i have two
+different strategies in mind. at times like these branches can allow
+us to try both strategies on same project base still keeping new code
+of both strategies seprate from each other and avoid confusion. later
+we can see which one worked better and discard the other one or in
+some cases even merge the two solutions if both worked out pretty well
+and one can improve other.
+
+Question:
+How do the diagrams help you visualize the branch structure?
+Answer:
+diagrams of logs of commits does help me understand how git works and
+how stuff is printed out and in what fashion when i type git log.
+Also to understand the branching structure of git diagrams like trees
+with top as first commit helped me to understand the hierchial
+structure. 
+
+Question:
+What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+Answer:
+Well the result is quite cool. It adds code of both branches and sync
+them together in one branch. not just that it also arranches the both
+branches in one as they are mergerd. so on git log it shows both
+branches as one in order of time stamps. 
+As I understood so far while merging git looks at previous
+repositories to see which code we started with and how much each
+branch deleted or added.
+for example if i am working on one branch and I deleted a line of code
+where as the branch i am trying to merge it with my branch still uses
+that line of code gil will check this notice it and remove that line
+in the final version. 
+if we both deleted a line of code git will ignore it too. 
+something new added by both will be included too (mostly probably).
+not sure how it merges big programs i mean there we deviate a lot. 
+there is a feature in git where when its not sure it askes to resolve
+something to merge files. i hope its easy to understand. 
+Diagrams:
+and we use diagrams to represent merge as its very easy to image them
+in share of tress (some sort of) and makes complete sense as they
+behave. 
+
+trying to merge still has that line of code
+
+Question:
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+Answer:
+Well in my opinion git does a pretty neat job in automatic
+merging. Before this to be honest i never even thought of merging of
+code was possible like this. and that too by such a simple logic of
+code. in my opinion as long as you know what you were doing in both
+branches and two branches emarged from a common source you can always
+try autmatic merging. 
+On other side when two branches have went to major changes which makes
+them quite different from each other might be difficult to merge where
+both parties contain a whole bunch of different code so these files
+will be difficult to merge in general doest matter automatic or
+manual. but if we are just copying some functions from one to another
+then manual merging will be more advantageous. 
+*still i need a lot more practice on this topic.
 
 
 devi mata sharda sard ind samhas bando pad pankaj sada karo somat prakash.
