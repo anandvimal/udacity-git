@@ -1,6 +1,0 @@
-Lesson 2
-Reflections:
-
-Question:What happens when you initialize a repository? Why do you need to do it?
-Answer:
-When we initilize a repository the git gets initialized in that directory. Git also starts tracking the directory 
